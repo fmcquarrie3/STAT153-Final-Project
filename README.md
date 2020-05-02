@@ -1,37 +1,41 @@
-## Welcome to GitHub Pages
+# Mediocre Social Network Apps Incorporated Continues Downward Spiral
 
-You can use the [editor on GitHub](https://github.com/fmcquarrie3/stat153_final_project/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+_Nameless Hotshot Reporter_
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+_New Cal Times_
 
-### Markdown
+_May 2, 2020_
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+  More bad news appears on the horizon for the stock prices of Mediocre Social Network Apps Incorporated.  The company has struggled for the past few years as consumer interests have waned in its Headbook and Line apps in favor of the competitor’s  Instachat and TokTik. 
+  
+  The company hoped that as millions of Americans have more time on their hands (due to the recent pandemic), interests in their social network offerings would increase. The  company shareholders prefer to be cautious in these uncertain times, so they hired several statistical analysts from the renowned University of California, Berkeley to study their stock prices. 
+The company’s stock prices have followed a dismal but variable downward trend since 2015, as evidenced by Figure 1:
 
-```markdown
-Syntax highlighted code block
+FIXME insert original plot
 
-# Header 1
-## Header 2
-### Header 3
+The volatility in stock price (as seen in the jagged shapes and temporary upticks)  prevents easy analysis or prediction. The volatility in price also changes over time, being more evident in the early years of the stocks after the company went public and gained its footing. 
 
-- Bulleted
-- List
+  After several weeks of intense work, the UC Berkeley analysts have cracked the code of the behavior of the stock prices. The first accounted for the volatility in the prices through  a simple mathematical transformation of the data. After testing various curves that could have created the shape of the prices, they settled on a simple linear downward trend:
+ 
+FIXME insert linear trend plot
+ 
+I expect readers would be alarmed by how much the linear curve seems to oversimplify the data. Even with my background in economics and general statistics, I was dubious when I first viewed the analysts’ work. But they explained to me that the downward linear trend was only half of  the model behind the stock prices. They also discovered a particular type of noise that compounds the linear trend. 
 
-1. Numbered
-2. List
+  Noise is something that has to be accounted for in models of any kind on any subject. Rarely would we ever see a relationship in the real world that follows a perfect straight line, or a perfect parabola, etc. The data that we see and collect is some true relationship (linear, quadratic, logarithmic, etc), plus some noise. This noise arises from measures that we can’t control - e.g. a scale estimating weight is off by a tenth of a gram, or market measurements not aligned to capturing the market leanings perfectly. Noise can come in many forms.
+  
+  
+  The Berkeley analysts discovered the noise that accompanied the linear trend was made up of two factors:  irreducible noise (i.e. market leanings are not rational and will never follow a perfect linear relationship) and noise that depends on the noise of the previous day. This means that information about the previous day of stock prices affects the value of today’s stock price. For example, when California’s shelter-in-place order was enacted on March 17, stocks across industries took a hit as economists worried about the effects of the virus. This downward shock compounded itself for the next few days, decreasing the company’s  stock price further. This trend continued until the marketing team came up with a campaign to entice people stuck at home to use the company’s apps, which created a temporary uptick in stock prices.  This time dependence pattern results in the local dips and rises that we see in the stock prices above.
 
-**Bold** and _Italic_ and `Code` text
+  Once the analysts’ finalized their model of the stock prices, they forecasted (a fancy word for predicted) the stock price for Mediocre Social Network Apps Incorporated for the next 10 days and presented the following  graph to the shareholders:
 
-[Link](url) and ![Image](src)
-```
+FIXME insert forecast plot here
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+  Unfortunately, the forecasts weren’t positive. It appears that Mediocre Social Network Apps Incorporated will continue to face dismal results unless they can use this national crisis to reflect and pivot their company’s offerings. 
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/fmcquarrie3/stat153_final_project/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+#### Project Information:
+Authors: Francie McQuarrie, Purva Kapshikar
 
-### Support or Contact
+May 2, 2020
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+STAT153 Final Project
