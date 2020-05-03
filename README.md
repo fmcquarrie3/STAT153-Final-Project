@@ -11,7 +11,10 @@ _May 2, 2020_
   The company hoped that as millions of Americans have more time on their hands (due to the recent pandemic), interests in their social network offerings would increase. The  company shareholders prefer to be cautious in these uncertain times, so they hired several statistical analysts from the renowned University of California, Berkeley to study their stock prices. 
 The company’s stock prices have followed a dismal but variable downward trend since 2015, as evidenced by Figure 1:
 
+
 ![Original Data](https://github.com/fmcquarrie3/STAT153-Final-Project/blob/master/orig_price.png)
+
+
 
 The volatility in stock price (as seen in the jagged shapes and temporary upticks)  prevents easy analysis or prediction. The volatility in price also changes over time, being more evident in the early years of the stocks after the company went public and gained its footing. 
 
