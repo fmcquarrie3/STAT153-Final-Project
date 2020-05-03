@@ -17,7 +17,7 @@ The company’s stock prices have followed a dismal but variable downward trend 
 
 The volatility in stock price (as seen in the jagged shapes and temporary upticks)  prevents easy analysis or prediction. The volatility in price also changes over time, being more evident in the early years of the stocks after the company went public and gained its footing. 
 
-  After several weeks of intense work, the UC Berkeley analysts have cracked the code of the behavior of the stock prices. The first accounted for the volatility in the prices through  a simple mathematical transformation of the data. After testing various curves that could have created the shape of the prices, they settled on a simple linear downward trend:
+  After several weeks of intense work, the UC Berkeley analysts have cracked the code of the behavior of the stock prices. The first accounted for the volatility in the prices through  a simple mathematical transformation of the data. After testing various curves that could have created the shape of the prices, they settled on a simple downward linear trend:
  
 <p align="center">
   <img width="460" height="300" src="https://github.com/fmcquarrie3/STAT153-Final-Project/blob/master/linear.png">
@@ -32,12 +32,16 @@ I expect readers would be alarmed by how much the linear curve seems to oversimp
 
   Once the analysts’ finalized their model of the stock prices, they forecasted (a fancy word for predicted) the stock price for Mediocre Social Network Apps Incorporated for the next 10 days and presented the following  graph to the shareholders:
 
-FIXME insert forecast plot here
+<p align="center">
+  <img width="460" height="300" src="https://github.com/fmcquarrie3/STAT153-Final-Project/blob/master/forecast_mar18.png">
+</p>
 
   Unfortunately, the forecasts weren’t positive. It appears that Mediocre Social Network Apps Incorporated will continue to face dismal results unless they can use this national crisis to reflect and pivot their company’s offerings. 
 
 
 #### Project Information:
+_Note_: We’re aware that the stock data only goes up to the third quarter of September 2019 and not to the present, but by creative license we have extended the dataset to tell a more compelling story (as per the instructions of the assignment!)
+
 Authors: Francie McQuarrie, Purva Kapshikar
 
 May 2, 2020
